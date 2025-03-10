@@ -1,0 +1,60 @@
+/* GridContainer Styles */
+.grid-container {
+  @apply lg:max-w-screen-2xl mx-auto grid gap-6 lg:gap-6 p-6 auto-cols-fr font-mono;
+}
+
+/* 📱 Mobile Portrait (320x480) y Mobile Landscape (480x320) */
+.mp\:grid-cols-2 {
+  @apply grid-cols-2;
+}
+
+/* 📲 Small Tablet Portrait (600x800) y Small Tablet Landscape (800x600) */
+.stp\:grid-cols-4,
+.stl\:grid-cols-4 {
+  @apply grid-cols-4;
+}
+
+/* 📲 Tablet Portrait (768x1024) */
+.md\:grid-cols-4 {
+  @apply grid-cols-4;
+}
+
+/* 💻 Tablet Landscape (1024x768) */
+.lg\:grid-cols-6 {
+  @apply grid-cols-6;
+}
+
+/* Definición de filas en diferentes dispositivos */
+.grid-container {
+  @apply grid-rows-[minmax(100px,_auto)minmax(200px,_auto)_minmax(250px,_auto)_minmax(250px,_auto)_minmax(500px,_auto)];
+}
+
+@screen mp {
+  .grid-container {
+    @apply grid-rows-[minmax(100px,_auto)_minmax(200px,_auto)_repeat(8,_minmax(100px,_auto))_minmax(500px,_auto)];
+  }
+}
+
+@screen ml {
+  .grid-container {
+    @apply grid-rows-[minmax(100px,_auto)_minmax(200px,_auto)_repeat(8,_minmax(100px,_auto))_minmax(350px,_auto)];
+  }
+}
+
+@screen stp {
+  .grid-container {
+    @apply grid-rows-[minmax(100px,_auto)_minmax(100px,_auto)_minmax(100px,_auto)_minmax(100px,_auto)_minmax(100px,_auto)_minmax(420px,_auto)];
+  }
+}
+
+@screen md {
+  .grid-container {
+    @apply grid-rows-[minmax(100px,_auto)_minmax(150px,_auto)_minmax(150px,_auto)_minmax(100px,_auto)_minmax(100px,_auto)_minmax(400px,_auto)];
+  }
+}
+
+@screen lg {
+  .grid-container {
+    @apply grid-rows-[minmax(100px,_auto)_minmax(100px,_auto)_minmax(100px,_auto)_minmax(100px,_auto)_minmax(100px,_auto)_minmax(240px,_auto)];
+  }
+}
