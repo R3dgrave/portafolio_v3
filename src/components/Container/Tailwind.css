@@ -31,7 +31,7 @@
 
 @screen mp {
   .grid-container {
-    @apply grid-rows-[minmax(100px,_auto)_minmax(200px,_auto)_repeat(8,_minmax(100px,_auto))_minmax(500px,_auto)];
+    @apply grid-rows-[minmax(100px,_auto)_minmax(200px,_auto)_repeat(8,_minmax(100px,_auto))_minmax(300px,_auto)_minmax(100px,_auto)_minmax(300px,_auto)_minmax(100px,_auto)_minmax(200px,_auto)_minmax(100px,_auto)];
   }
 }
 
