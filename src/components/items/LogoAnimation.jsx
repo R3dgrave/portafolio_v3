@@ -22,7 +22,7 @@ const LogoAnimation = ({ onFinish }) => {
 
       {/* Párrafo debajo del logo */}
       <motion.p
-        className="text-[#0097b2] text-xl mt-4 font-semibold uppercase font-mono"
+        className="text-[#0097b2] text-xl mt-4 font-semibold uppercase"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}

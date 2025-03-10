@@ -1,6 +1,6 @@
 /* GridContainer Styles */
 .grid-container {
-  @apply lg:max-w-screen-2xl mx-auto grid gap-6 lg:gap-6 p-6 auto-cols-fr font-mono;
+  @apply lg:max-w-screen-2xl mx-auto grid gap-6 lg:gap-6 p-6 auto-cols-fr;
 }
 
 /* 📱 Mobile Portrait (320x480) y Mobile Landscape (480x320) */

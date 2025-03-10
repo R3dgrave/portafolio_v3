@@ -13,4 +13,5 @@ body {
   background-blend-mode: overlay; /* Combina el gradiente con el ruido */
   margin: 0;
   background-repeat: repeat;
+  font-family: "Inter Variable", sans-serif;
 }
