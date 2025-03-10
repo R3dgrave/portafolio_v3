@@ -4,7 +4,7 @@ const Codegif1x1 = () => {
   return (
     <Square1x1 className="overflow-hidden">
       <img
-        src="src/assets/code_gif.gif"
+        src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/backgrounds/code_gif.gif"
         alt="GIF animado"
         className="w-full h-full object-cover rounded-xl"
       />

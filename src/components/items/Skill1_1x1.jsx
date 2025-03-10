@@ -7,28 +7,18 @@ const Skill1_1x1 = () => {
       tooltipContent="Habilidades-FrontEnd"
     >
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
-        <a
-          href="https://www.linkedin.com/in/tu-perfil"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full h-full"
-        >
+        <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="src/assets/react.png"
+            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/react.webp"
             alt="User"
             className="w-full h-full mp:rounded-xl"
           />
         </a>
       </div>
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
-        <a
-          href="https://www.linkedin.com/in/tu-perfil"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full h-full"
-        >
+        <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="src/assets/Tailwindcss.png"
+            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/Tailwindcss.webp"
             alt="User"
             className="w-full h-full mp:rounded-xl"
           />

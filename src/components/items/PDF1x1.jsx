@@ -12,7 +12,7 @@ const PDF1x1 = () => {
         data-tooltip-id="pdf-tooltip"
       >
         <img
-          src="src/assets/Pdf.png"
+          src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/Pdf.webp"
           alt="User"
           className="w-full h-full rounded-3xl"
         />

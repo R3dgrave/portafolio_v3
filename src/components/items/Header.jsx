@@ -5,7 +5,7 @@ const Header = () => {
       <div className="w-10 md:w-20 flex justify-center md:justify-start transition-transform duration-300 ease-in-out hover:scale-110">
         <img
           className="w-full h-full rounded-full object-cover"
-          src="src/assets/logo.png"
+          src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/logo.webp"
           alt="Logo de mi portafolio"
         />
       </div>
@@ -16,7 +16,7 @@ const Header = () => {
         <div className="w-12 md:w-14 transition-transform duration-300 ease-in-out hover:scale-110">
           <img
             className="w-full h-full rounded-full object-cover"
-            src="src/assets/images.jpg"
+            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/logo.webp"
             alt="Foto del header"
           />
         </div>

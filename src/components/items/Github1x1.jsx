@@ -12,7 +12,7 @@ const Github1x1 = () => {
         data-tooltip-id="github-tooltip"
       >
         <img
-          src="src/assets/github.webp"
+          src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/github.webp"
           alt="User"
           className="w-full h-full rounded-3xl"
         />

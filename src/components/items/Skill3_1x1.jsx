@@ -8,13 +8,13 @@ const Skill3_1x1 = () => {
     >
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
         <a
-          href="https://www.linkedin.com/in/tu-perfil"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full h-full"
         >
           <img
-            src="src/assets/github.webp"
+            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/github.webp"
             alt="User"
             className="w-full h-full mp:rounded-xl"
           />
@@ -22,13 +22,13 @@ const Skill3_1x1 = () => {
       </div>
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
         <a
-          href="https://www.linkedin.com/in/tu-perfil"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full h-full"
         >
           <img
-            src="src/assets/git.png"
+            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/git.webp"
             alt="User"
             className="w-full h-full mp:rounded-xl"
           />

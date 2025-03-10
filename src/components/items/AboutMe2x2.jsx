@@ -3,7 +3,7 @@ import { Square2x2 } from "../template/Square2x2";
 const AboutMe2x2 = () => {
   return (
     <Square2x2
-      backgroundImage="src/assets/bg-mountain.jpeg"
+      backgroundImage="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/backgrounds/fondo-mac2.webp"
       tooltipId="sobre-mi-tooltip"
       tooltipContent="Sobre-Mi"
     >

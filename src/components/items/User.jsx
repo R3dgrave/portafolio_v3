@@ -4,7 +4,7 @@ const User = () => {
   return (
     <Square1x1 tooltipId="perfil-tooltip" tooltipContent="Perfil">
       <img
-        src="src/assets/images.jpg"
+        src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/images.webp"
         alt="User"
         className="w-full h-full rounded-3xl"
       />

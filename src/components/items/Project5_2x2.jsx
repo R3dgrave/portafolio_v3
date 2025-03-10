@@ -3,26 +3,24 @@ import { Square2x2 } from "../template/Square2x2";
 
 const dataProjects = [
   {
-    name: "E-Commerce Angular - Nodejs - MongoDB",
+    name: "Portafolio v2",
     description:
-      "Es un proyecto E-commerce, desarrollado con Angular 18, NodeJs y MongoDB, Tailwind CSS y Flowbite. Desarrollarlo me sirvió para tener una perspectiva más clara de todo lo que es crear una aplicación Full-Stack de 0 hasta desplegarlo y aprender lo básico de angular y como crear el servidor del back-end, para desplegarlo use Vercel(Front-end) Render(Back-end) MongoDB Atlas(Bdd).",
+      "Segundo diseño de portafolio web, esta vez hecho con React, TailwindCss y la libreria de componentes DaisyUI",
     technologies: [
-      { name: "Angular/ " },
-      { name: "TailwindCss/ " },
-      { name: "Node.js/ " },
-      { name: "MongoDB" },
+      { name: "React/ " },
+      { name: "TailwindCss" },
+      { name: "DaisyUI" },
     ],
     enlaces: {
-      frontend: "https://github.com/R3dgrave/E-Commerce-frontend",
-      backend: "https://github.com/R3dgrave/E-Commerce-Backend",
-      demo: "https://e-commerce-frontend-teal-one.vercel.app/",
+      frontend: "https://github.com/R3dgrave/portafolio_v2",
+      demo: "https://r3dgrave.github.io/portafolio_v2/",
     },
     image:
-      "https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/projects-img/E-commerce.webp",
+      "https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/projects-img/PortafolioV2.webp",
   },
 ];
 
-const Project1_2x2 = () => {
+const Project5_2x2 = () => {
   const [hovered, setHovered] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -57,7 +55,7 @@ const Project1_2x2 = () => {
   };
 
   return (
-    <Square2x2 tooltipId="proyecto1-tooltip" tooltipContent="Proyecto-1">
+    <Square2x2 tooltipId="proyecto2-tooltip" tooltipContent="Proyecto-2">
       <div className="relative w-full h-full">
         {dataProjects.map((project, index) => (
           <div
@@ -167,4 +165,4 @@ const Project1_2x2 = () => {
   );
 };
 
-export default Project1_2x2;
+export default Project5_2x2;

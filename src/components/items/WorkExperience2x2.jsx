@@ -24,7 +24,7 @@ const WorkExperience2x2 = () => {
   return (
     <>
       <Square2x2
-        backgroundImage="src/assets/bg-mountain.jpeg"
+        backgroundImage="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/backgrounds/bg-mountain.webp"
         tooltipId="experiencia-laboral-tooltip"
         tooltipContent="Experiencia-Laboral"
       >

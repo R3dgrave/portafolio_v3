@@ -3,26 +3,20 @@ import { Square2x2 } from "../template/Square2x2";
 
 const dataProjects = [
   {
-    name: "E-Commerce Angular - Nodejs - MongoDB",
+    name: "YourNotebook",
     description:
-      "Es un proyecto E-commerce, desarrollado con Angular 18, NodeJs y MongoDB, Tailwind CSS y Flowbite. Desarrollarlo me sirvió para tener una perspectiva más clara de todo lo que es crear una aplicación Full-Stack de 0 hasta desplegarlo y aprender lo básico de angular y como crear el servidor del back-end, para desplegarlo use Vercel(Front-end) Render(Back-end) MongoDB Atlas(Bdd).",
-    technologies: [
-      { name: "Angular/ " },
-      { name: "TailwindCss/ " },
-      { name: "Node.js/ " },
-      { name: "MongoDB" },
-    ],
+      "App para administrar notas, con editor de texto incorporado para mas personalización de las notas",
+    technologies: [{ name: "React/ " }, { name: "TailwindCss" }],
     enlaces: {
-      frontend: "https://github.com/R3dgrave/E-Commerce-frontend",
-      backend: "https://github.com/R3dgrave/E-Commerce-Backend",
-      demo: "https://e-commerce-frontend-teal-one.vercel.app/",
+      frontend: "https://github.com/R3dgrave/YourNotebook",
+      demo: "https://r3dgrave.github.io/YourNotebook/",
     },
     image:
-      "https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/projects-img/E-commerce.webp",
+      "https://github.com/R3dgrave/portafolio-v3/blob/main/src/assets/projects-img/YourNotebook.webp",
   },
 ];
 
-const Project1_2x2 = () => {
+const Project4_2x2 = () => {
   const [hovered, setHovered] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
@@ -57,7 +51,7 @@ const Project1_2x2 = () => {
   };
 
   return (
-    <Square2x2 tooltipId="proyecto1-tooltip" tooltipContent="Proyecto-1">
+    <Square2x2 tooltipId="proyecto2-tooltip" tooltipContent="Proyecto-2">
       <div className="relative w-full h-full">
         {dataProjects.map((project, index) => (
           <div
@@ -167,4 +161,4 @@ const Project1_2x2 = () => {
   );
 };
 
-export default Project1_2x2;
+export default Project4_2x2;

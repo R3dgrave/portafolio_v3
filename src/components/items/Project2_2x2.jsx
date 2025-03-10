@@ -11,7 +11,8 @@ const dataProjects = [
       frontend: "https://github.com/R3dgrave/landingpage-programadorfreelance",
       demo: "https://r3dgrave.github.io/landingpage-programadorfreelance/",
     },
-    image: "src/assets/E-commerce.webp",
+    image:
+      "https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/projects-img/Landing-page.webp",
   },
 ];
 

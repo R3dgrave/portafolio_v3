@@ -7,28 +7,18 @@ const Skill2_1x1 = () => {
       tooltipContent="Habilidades-BackEnd"
     >
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
-        <a
-          href="https://www.linkedin.com/in/tu-perfil"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full h-full"
-        >
+        <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="src/assets/nodejs.png"
+            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/nodejs.webp"
             alt="User"
             className="w-full h-full mp:rounded-xl"
           />
         </a>
       </div>
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
-        <a
-          href="https://www.linkedin.com/in/tu-perfil"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full h-full"
-        >
+        <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="src/assets/mongodb.png"
+            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/mongodb.webp"
             alt="User"
             className="w-full h-full mp:rounded-xl"
           />

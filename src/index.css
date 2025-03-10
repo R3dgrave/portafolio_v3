@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background: radial-gradient(ellipse at top left, #334563, #17233f, #040b2e),
-    url("assets/granulado2.jpg");
+    url("https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/backgrounds/granulado2.webp");
   background-size: auto;
   background-blend-mode: overlay; /* Combina el gradiente con el ruido */
   margin: 0;

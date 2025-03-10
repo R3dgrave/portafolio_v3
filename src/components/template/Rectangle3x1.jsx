@@ -10,7 +10,9 @@ export function Rectangle3x1({ className = "", children }) {
         {/* Imagen de fondo con hover */}
         <div
           className="absolute bottom-0 left-0 w-full h-full bg-no-repeat bg-bottom bg-cover transition-transform duration-500 ease-in-out hover:scale-110"
-          style={{ backgroundImage: `url("/src/assets/particles.png")` }}
+          style={{
+            backgroundImage: `url("https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/backgrounds/particles.webp")`,
+          }}
         />
         {/* Contenido */}
         <div className="relative z-30 transition-transform duration-500 ease-in-out hover:scale-110">

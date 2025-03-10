@@ -13,7 +13,7 @@ import Project1_2x2 from "../items/Project1_2x2";
 import Skill1_1x1 from "../items/Skill1_1x1";
 import Skill2_1x1 from "../items/Skill2_1x1";
 import Skill3_1x1 from "../items/Skill3_1x1";
-import User from "../items/user";
+import User from "../items/User";
 import WorkExperience2x2 from "../items/WorkExperience2x2";
 import "./Tailwind.css";
 

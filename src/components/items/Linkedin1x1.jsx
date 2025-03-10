@@ -12,7 +12,7 @@ const Linkedin1x1 = () => {
         data-tooltip-id="linkedin-tooltip"
       >
         <img
-          src="src/assets/linkedin.png"
+          src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/linkedin.webp"
           alt="LinkedIn"
           className="w-full h-full rounded-3xl bg-white"
         />
