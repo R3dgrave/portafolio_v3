@@ -117,14 +117,6 @@ const Project3_2x2 = () => {
                   Front-end
                 </a>
                 <a
-                  href={project.enlaces.backend}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-[#121212] text-white px-4 py-2 rounded-lg mp:text-xs font-semibold hover:bg-[#252525] transition"
-                >
-                  Back-end
-                </a>
-                <a
                   href={project.enlaces.demo}
                   target="_blank"
                   rel="noopener noreferrer"

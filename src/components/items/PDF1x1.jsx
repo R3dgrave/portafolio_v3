@@ -5,7 +5,7 @@ const PDF1x1 = () => {
   return (
     <Square1x1>
       <a
-        href="https://drive.google.com/file/d/12nsTDJ3ytLC5da6SNnWMzdZDkY7jJFe4/view?usp=sharing"
+        href="https://drive.google.com/file/d/1pFB1tMeFd41lUpt_AkQGwrfC6zSGBbxY/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         className="w-full h-full block"

@@ -7,12 +7,7 @@ const Skill3_1x1 = () => {
       tooltipContent="Herramientas"
     >
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full h-full"
-        >
+        <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
             src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/github.webp"
             alt="User"
@@ -21,12 +16,7 @@ const Skill3_1x1 = () => {
         </a>
       </div>
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-full h-full"
-        >
+        <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
             src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/git.webp"
             alt="User"
