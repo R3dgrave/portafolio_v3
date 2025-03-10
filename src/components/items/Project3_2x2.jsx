@@ -5,7 +5,7 @@ const dataProjects = [
   {
     name: "Portafolio v1",
     description:
-      "Primera version de mi portafolio hecha con Angular 18 y TailwindCss",
+      "Primera versión de mi portafolio hecho con Angular 18 y TailwindCss",
     technologies: [{ name: "Angular/ " }, { name: "TailwindCss" }],
     enlaces: {
       frontend: "https://github.com/R3dgrave/Portafolio",

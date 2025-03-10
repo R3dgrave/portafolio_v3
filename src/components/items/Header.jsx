@@ -12,7 +12,9 @@ const Header = () => {
 
       {/* Contenedor del perfil */}
       <div className="flex items-center gap-2 mt-4 md:mt-0">
-        <p className="text-white text-base">diego.abantomendoza@gmail.com</p>
+        <p className="text-white text-sm md:text-base">
+          diego.abantomendoza@gmail.com
+        </p>
         <div className="w-12 md:w-14 transition-transform duration-300 ease-in-out hover:scale-110">
           <img
             className="w-full h-full rounded-full object-cover"

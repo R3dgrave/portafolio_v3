@@ -5,7 +5,7 @@ const dataProjects = [
   {
     name: "Landing-Page Servicios Freelance",
     description:
-      "Es una página moderna y responsive creada con React y Tailwind CSS, diseñada para destacar servicios freelance de manera profesional y atractiva.",
+      "Es una página moderna y responsiva creada con React y Tailwind CSS, diseñada para destacar servicios freelance de manera profesional y atractiva.",
     technologies: [{ name: "React/ " }, { name: "TailwindCss" }],
     enlaces: {
       frontend: "https://github.com/R3dgrave/landingpage-programadorfreelance",

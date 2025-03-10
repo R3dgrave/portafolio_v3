@@ -5,7 +5,7 @@ const dataProjects = [
   {
     name: "Portafolio v2",
     description:
-      "Segundo diseño de portafolio web, esta vez hecho con React, TailwindCss y la libreria de componentes DaisyUI",
+      "Segundo diseño de portafolio web, esta vez hecho con React, TailwindCss y la librería de componentes DaisyUI",
     technologies: [
       { name: "React/ " },
       { name: "TailwindCss" },

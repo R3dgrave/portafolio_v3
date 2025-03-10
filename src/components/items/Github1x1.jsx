@@ -17,7 +17,7 @@ const Github1x1 = () => {
           className="w-full h-full rounded-3xl"
         />
       </a>
-      <Tooltip id="github-tooltip" place="top" content="Perfil de Github" />
+      <Tooltip id="github-tooltip" place="top" content="Perfil de GitHub" />
     </Square1x1>
   );
 };

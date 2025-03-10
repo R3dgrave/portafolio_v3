@@ -5,7 +5,7 @@ const dataProjects = [
   {
     name: "YourNotebook",
     description:
-      "App para administrar notas, con editor de texto incorporado para mas personalización de las notas",
+      "App para administrar notas, con editor de texto incorporado para más personalización de las notas",
     technologies: [{ name: "React/ " }, { name: "TailwindCss" }],
     enlaces: {
       frontend: "https://github.com/R3dgrave/YourNotebook",
