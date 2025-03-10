@@ -55,7 +55,7 @@ const Project5_2x2 = () => {
   };
 
   return (
-    <Square2x2 tooltipId="proyecto2-tooltip" tooltipContent="Proyecto-2">
+    <Square2x2 tooltipId="proyecto5-tooltip" tooltipContent="Proyecto-5">
       <div className="relative w-full h-full">
         {dataProjects.map((project, index) => (
           <div

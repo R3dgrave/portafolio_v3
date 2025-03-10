@@ -12,7 +12,7 @@ const dataProjects = [
       demo: "https://r3dgrave.github.io/YourNotebook/",
     },
     image:
-      "https://github.com/R3dgrave/portafolio-v3/blob/main/src/assets/projects-img/YourNotebook.webp",
+      "https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/projects-img/YourNotebook.webp",
   },
 ];
 
@@ -51,7 +51,7 @@ const Project4_2x2 = () => {
   };
 
   return (
-    <Square2x2 tooltipId="proyecto2-tooltip" tooltipContent="Proyecto-2">
+    <Square2x2 tooltipId="proyecto4-tooltip" tooltipContent="Proyecto-4">
       <div className="relative w-full h-full">
         {dataProjects.map((project, index) => (
           <div

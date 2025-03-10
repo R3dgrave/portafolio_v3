@@ -10,6 +10,10 @@ import Presentation2x1 from "../items/Presentation2x1";
 import Presentation3x1 from "../items/Presentation3x1";
 import Presentation4x1 from "../items/Presentation4x1";
 import Project1_2x2 from "../items/Project1_2x2";
+import Project2_2x2 from "../items/Project2_2x2";
+import Project3_2x2 from "../items/Project3_2x2";
+import Project4_2x2 from "../items/Project4_2x2";
+import Project5_2x2 from "../items/Project5_2x2";
 import Skill1_1x1 from "../items/Skill1_1x1";
 import Skill2_1x1 from "../items/Skill2_1x1";
 import Skill3_1x1 from "../items/Skill3_1x1";
@@ -49,7 +53,11 @@ export default function GridContainer() {
       <Skill2_1x1 key="Skills2" />,
       <Skill3_1x1 key="Skills3" />,
       <Codegif1x1 key="Gif" />,
-      <Project1_2x2 key="Project" />,
+      <Project1_2x2 key="Project1" />,
+      <Project2_2x2 key="Project2" />,
+      <Project3_2x2 key="Project3" />,
+      <Project4_2x2 key="Project4" />,
+      <Project5_2x2 key="Project5" />,
     ];
   }
 
@@ -68,7 +76,11 @@ export default function GridContainer() {
       <PDF1x1 key="Pdf" />,
       <Skill3_1x1 key="Skills3" />,
       <Codegif1x1 key="Gif" />,
-      <Project1_2x2 key="Project" />,
+      <Project1_2x2 key="Project1" />,
+      <Project2_2x2 key="Project2" />,
+      <Project3_2x2 key="Project3" />,
+      <Project4_2x2 key="Project4" />,
+      <Project5_2x2 key="Project5" />,
     ];
   }
 
@@ -88,9 +100,11 @@ export default function GridContainer() {
       <Presentation4x1 key="Mp3" />,
       <Skill3_1x1 key="Skills3" />,
       <Codegif1x1 key="Gif" />,
-      <Project1_2x2 key="Project" />,
-      <Project1_2x2 key="Project" />,
-      <Project1_2x2 key="Project" />,
+      <Project1_2x2 key="Project1" />,
+      <Project2_2x2 key="Project2" />,
+      <Project3_2x2 key="Project3" />,
+      <Project4_2x2 key="Project4" />,
+      <Project5_2x2 key="Project5" />,
     ];
   }
 
