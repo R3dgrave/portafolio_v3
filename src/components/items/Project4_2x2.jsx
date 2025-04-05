@@ -11,8 +11,7 @@ const dataProjects = [
       frontend: "https://github.com/R3dgrave/YourNotebook",
       demo: "https://r3dgrave.github.io/YourNotebook/",
     },
-    image:
-      "https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/projects-img/YourNotebook.webp",
+    image: "./projects-img/YourNotebook.webp",
   },
 ];
 
@@ -64,6 +63,7 @@ const Project4_2x2 = () => {
             <img
               src={project.image}
               alt={project.name}
+              aria-label={project.name}
               className="w-full h-full object-cover transition-transform duration-300 ease-in-out"
             />
 

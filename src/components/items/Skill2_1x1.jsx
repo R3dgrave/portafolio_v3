@@ -9,8 +9,9 @@ const Skill2_1x1 = () => {
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
         <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/nodejs.webp"
-            alt="User"
+            src="./iconos/nodejs.webp"
+            aria-label="Nodejs"
+            alt="Nodejs"
             className="w-full h-full mp:rounded-xl"
           />
         </a>
@@ -18,8 +19,9 @@ const Skill2_1x1 = () => {
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
         <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/mongodb.webp"
-            alt="User"
+            src="./iconos/mongodb.webp"
+            aria-label="Mongodb"
+            alt="Mongodb"
             className="w-full h-full mp:rounded-xl"
           />
         </a>

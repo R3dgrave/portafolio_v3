@@ -7,12 +7,14 @@ const Linkedin1x1 = () => {
       <a
         href="https://www.linkedin.com/in/diego-abanto-b42b81289/"
         target="_blank"
+        aria-label="Perfil de LinkedIn"
         rel="noopener noreferrer"
         className="w-full h-full block"
         data-tooltip-id="linkedin-tooltip"
       >
         <img
-          src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/linkedin.webp"
+          src="./iconos/linkedin.webp"
+          aria-label="Perfil de LinkedIn"
           alt="LinkedIn"
           className="w-full h-full rounded-3xl bg-white"
         />

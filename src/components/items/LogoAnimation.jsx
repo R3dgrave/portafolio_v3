@@ -9,8 +9,8 @@ const LogoAnimation = ({ onFinish }) => {
     >
       {/* Logo con efecto de trazo radial */}
       <motion.img
-        src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/logo.webp"
-        alt="Logo"
+        src="./iconos/logo.webp "
+        aria-label="Logo"
         className="w-32 h-32"
         initial={{ opacity: 0, clipPath: "circle(0% at 50% 50%)" }}
         animate={{

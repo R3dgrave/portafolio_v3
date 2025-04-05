@@ -9,8 +9,9 @@ const Skill1_1x1 = () => {
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
         <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/react.webp"
-            alt="User"
+            src="./iconos/react.webp"
+            aria-label="React"
+            alt="React"
             className="w-full h-full mp:rounded-xl"
           />
         </a>
@@ -18,8 +19,9 @@ const Skill1_1x1 = () => {
       <div className="rounded-xl transition-transform duration-300 ease-in-out hover:scale-110">
         <a href="#" rel="noopener noreferrer" className="w-full h-full">
           <img
-            src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/Tailwindcss.webp"
-            alt="User"
+            src="./iconos/Tailwindcss.webp"
+            aria-label="Tailwindcss"
+            alt="Tailwindcss"
             className="w-full h-full mp:rounded-xl"
           />
         </a>

@@ -12,8 +12,9 @@ const Mail1x1 = () => {
         data-tooltip-id="Gmail-tooltip"
       >
         <img
-          src="https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/iconos/gmailred.webp"
-          alt="User"
+          src="./iconos/gmailred.webp"
+          aria-label="Correo electrónico"
+          alt="Correo electrónico"
           className="w-full h-full rounded-3xl"
         />
       </a>

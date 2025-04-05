@@ -17,8 +17,7 @@ const dataProjects = [
       backend: "https://github.com/R3dgrave/E-Commerce-Backend",
       demo: "https://e-commerce-frontend-teal-one.vercel.app/",
     },
-    image:
-      "https://raw.githubusercontent.com/R3dgrave/portafolio-v3/refs/heads/main/src/assets/projects-img/E-commerce.webp",
+    image: "./projects-img/E-commerce.webp",
   },
 ];
 
@@ -70,6 +69,7 @@ const Project1_2x2 = () => {
             <img
               src={project.image}
               alt={project.name}
+              aria-label={project.name}
               className="w-full h-full object-cover transition-transform duration-300 ease-in-out"
             />
 
