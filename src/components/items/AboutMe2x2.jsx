@@ -8,14 +8,16 @@ const AboutMe2x2 = () => {
       tooltipContent="Sobre-Mi"
     >
       <p className="text-white bg-black/80 rounded-3xl mp:text-xs px-3 py-4 mx-2">
-        Soy Diego, Analista Programador titulado. Durante mi formación, adquirí
-        experiencia trabajando en equipo para desarrollar aplicaciones web
-        completas, participando activamente en todas las etapas del proyecto:
-        análisis, planificación, desarrollo y pruebas. Esto me permitió manejar
-        tecnologías actuales y altamente demandadas en el mercado. Mi objetivo
-        profesional es mejorar continuamente mis habilidades para desempeñarme
-        de manera autónoma y aportar soluciones innovadoras en cada proyecto en
-        el que participe.
+        Mi nombre es Diego Abanto, tengo 26 años y estudié la carrera de
+        Analista Programador. Tengo experiencia en hardware (armando,
+        diagnosticando y reparando ordenadores) y software. Durante mi formación
+        descubrí mi pasión por el desarrollo web conforme fui adentrándome más
+        en el tema y mientras realizaba proyectos personales y académicos. Mis
+        pasatiempos e intereses son ver series, jugar videojuegos y la
+        programación y desarrollo web en general. Actualmente, busco empleo como
+        desarrollador web Front-End. A la Front-End. A la par, sigo formándome
+        día a día de manera autónoma sobre las tecnologías actuales y mas
+        demandadas del mercado para siempre estar a la vanguardia.
       </p>
     </Square2x2>
   );
